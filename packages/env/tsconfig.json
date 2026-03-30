@@ -1,0 +1,3 @@
+{
+  "extends": "@portfolio-vide-code/config/tsconfig.base.json"
+}
