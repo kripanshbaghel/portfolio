@@ -16,8 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "portfolio-vide-code",
-  description: "portfolio-vide-code",
+  title: "Kripansh Baghel — Video Editor · Developer",
+  description:
+    "Portfolio of Kripansh Baghel, a creative professional specializing in video editing and full-stack development.",
 };
 
 export default function RootLayout({
@@ -29,10 +30,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Providers>
-          <div className="grid grid-rows-[auto_1fr] h-svh">
-            <Header />
-            {children}
-          </div>
+          <Header />
+          {children}
         </Providers>
       </body>
     </html>
